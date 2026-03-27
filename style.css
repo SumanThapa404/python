@@ -1,0 +1,50 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+/* HERO SECTION */
+.hero {
+  height: 100vh;
+
+  /* Use your image here */
+  background: url("image.jpg") no-repeat center/cover;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Overlay for text readability */
+.overlay {
+  background: rgba(0, 0, 0, 0.3);
+  padding: 40px;
+  text-align: center;
+  color: white;
+  border-radius: 10px;
+}
+
+/* Text */
+.overlay h1 {
+  font-size: 50px;
+  margin: 0;
+}
+
+.overlay p {
+  font-size: 20px;
+  margin: 10px 0;
+}
+
+/* Button */
+button {
+  padding: 10px 20px;
+  border: none;
+  background: #ff7a7a;
+  color: white;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+button:hover {
+  background: #ff5252;
+}
